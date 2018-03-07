@@ -1,0 +1,29 @@
+{
+    "name": "jeangael/dicebundle",
+    "description": "Throw a dice",
+    "keywords": ["dice", "rpg", "psr-0"],
+    "homepage": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JG Rouchon",
+            "email": "jean-gael@rouchon.org",
+            "homepage": ""
+        }
+    ],
+    "autoload": {
+      "psr-0": {"JeanGael\\DiceBundle\\": "./"}
+    },
+    "require": {
+      "symfony/symfony": ">=3.4"
+    },
+    "config": {
+      "bin-dir": "bin",
+      "component-dir": "web/components",
+      "process-timeout": 900
+    },
+    "scripts": {
+    },
+    "minimum-stability": "stable"
+}
