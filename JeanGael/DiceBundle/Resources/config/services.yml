@@ -1,0 +1,4 @@
+services:
+    dice.diceboard:
+        class: JeanGael\DiceBundle\Service\DiceBoard
+    JeanGael\DiceBundle\Service\DiceBoard: '@dice.diceboard'
